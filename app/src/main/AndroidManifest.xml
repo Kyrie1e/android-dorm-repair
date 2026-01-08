@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.repairapp">
+
+    <application
+        android:allowBackup="true"
+        android:label="RepairApp"
+        android:supportsRtl="true">
+
+        <activity android:name="com.example.repairapp.ui.order.NewOrderActivity" />
+        <activity android:name="com.example.repairapp.ui.order.OrderDetailActivity" />
+        <activity android:name="com.example.repairapp.ui.order.OrderListActivity" />
+        <activity android:name="com.example.repairapp.ui.worker.WorkerHomeActivity" />
+        <activity android:name="com.example.repairapp.ui.student.StudentHomeActivity" />
+        <activity android:name="com.example.repairapp.ui.auth.RegisterActivity" />
+        <activity android:name="com.example.repairapp.ui.auth.LoginActivity" />
+        <activity android:name="com.example.repairapp.ui.launch.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
